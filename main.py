@@ -17,7 +17,7 @@ from selenium import webdriver
 #initialize Selenium to webpage 
 DRIVER_PATH = r'C:\Users\legok\chromedriver_win32\chromedriver'
 
-url = "https://www.cs.tufts.edu/comp/15/schedule/schedule.html"
+url = input("What website files are you downloading? ")#"https://www.cs.tufts.edu/comp/15/schedule/schedule.html"
 
 driver = webdriver.Chrome(DRIVER_PATH)
 
